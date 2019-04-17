@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/public'));
 hbs.registerHelper('getCurrentYear', () => {
     return new Date().getFullYear();
 });
-//hhhh
+
 hbs.registerHelper('message', (text) => {
     return text.toUpperCase();
 });
