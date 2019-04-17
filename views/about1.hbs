@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+        background-color: #4CAF50;
+        }
+    </style>
+    <meta charset="utf 8">
+    <title>About Page</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="Homepage">Homepage</a></li>
+        <li><a href="weather">weather</a></li>
+        <li><a class="active" href="info">info</a></li>
+    </ul>
+    <h1>About Me</h1>
+    <p>I'm...</p>
+</body>
+    {{> cfooter}}
+</html>

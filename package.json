@@ -1,0 +1,28 @@
+{
+  "name": "finals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasPettersson/Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasPettersson/Final/issues"
+  },
+  "homepage": "https://github.com/EliasPettersson/Final#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "hbs": "^4.0.4",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
