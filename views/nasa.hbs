@@ -38,11 +38,19 @@
 <body>
 
     <ul>
-        <li><a class="active" href="Homepage">Homepage</a></li>
-        <li><a href="nasa">nasa</a></li>
+        <li><a href="Homepage">Homepage</a></li>
+        <li><a class="active" href="nasa">nasa</a></li>
         <li><a href="card">card</a></li>
     </ul>
-    <h1>Welcome to the Homepage!</h1>
+    <h1>Welcome to Nasa!</h1>
+    <img src="https://apod.nasa.gov/apod/image/1904/M81salvatore1024.jpg" alt="Image">
+    <img src="https://api.nasa.gov/images/getting_started_use" alt="Image2">
+    <button id="myButton" class="float-left submit-button" >Nasa</button>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "http://jsonplaceholder.typicode.com/photos";
+        };
+    </script>
 
 </body>
     {{> cfooter}}
